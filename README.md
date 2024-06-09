@@ -76,21 +76,22 @@ Each row within a table corresponds to a session in Analytics 360.
    - Using CTEs ,  Using productQuantity to calculate quantity.
 8. - hits.eCommerceAction.action_type = '2' is view product page; hits.eCommerceAction.action_type = '3' is add to cart; hits.eCommerceAction.action_type = '6' is purchase
    - **Cohort map** is used to calculate the percentage of users engaging in each stage of the process, from viewing the product to adding it to the cart and making a purchase, in the months of January, February, and March 2017. Understanding of user behavior over time.
+**See more detailed answer in Bigquery** : https://console.cloud.google.com/bigquery?sq=305479952005:9ef9fb0589a5484a8b767a94a97d2611 
 ## 5. Conclusion 
 - These aggregation functions are used to calculate and summarize various metrics and statistics from the dataset, such as total visits, pageviews, transactions, bounce rate, and revenue. (SUM(), COUNT(), AVG(), ROUND(), ...)
 - In addition, CTEs are also used for intermediate calculations, reducing the complexity of the answer.
 
 Through the exploration of data using eight SQL queries on the Google Analytics Sample dataset, several insights have been gained into user behavior and website performance. These queries have allowed for a comprehensive analysis of various aspects such as traffic sources, user engagement, revenue generation, and customer purchasing patterns.
 
-Traffic Analysis: Queries such as Query 2 provided insights into traffic sources, helping to identify the most significant channels driving visitors to the website.
+**Traffic Analysis:** Queries such as **Query 2** provided insights into **traffic sources**, helping to identify the most significant channels driving visitors to the website.
 
-User Engagement: Analysis of metrics like visits, pageviews, and bounce rates (Query 2) shed light on user engagement levels and interaction patterns with the website.
+**User Engagement:** Analysis of metrics like **visits**, **pageviews**, and **bounce rates** **(Query 2)** shed light on user engagement levels and interaction patterns with the website.
 
-Revenue Generation: Queries like Query 3 and Query 6 delved into revenue generation, revealing the impact of different traffic sources and user behavior on revenue.
+**Revenue Generation:** Queries like **Query 3** and **Query 6** delved into revenue generation, revealing the impact of different traffic sources and user behavior on revenue.
 
-Customer Purchasing Patterns: Queries like Query 4 and Query 7 provided valuable insights into customer purchasing behavior, including average pageviews per purchase and related product recommendations for specific purchases.
+**Customer Purchasing Patterns:** **Queries like Query 4** and **Query 7** provided valuable insights into **customer purchasing behavior**, including **average pageviews per purchase** and related **product** **recommendations** for specific purchases.
 
-Cohort Analysis: The cohort analysis conducted in Query 8 helped map the user journey from product view to add-to-cart to purchase, providing a deeper understanding of conversion rates and potential areas for improvement.
+**Cohort Analysis:** The cohort analysis conducted in **Query 8** helped map the user journey from product view to add-to-cart to purchase, providing a deeper understanding of conversion rates and potential areas for improvement.
 
 In conclusion, these SQL queries have proven to be effective tools for uncovering actionable insights from the dataset, aiding in data-driven decision-making and optimization of website performance for enhanced user experience and revenue generation. Further exploration and refinement of these queries could lead to even more profound insights and opportunities for improvement in the future.
 
